@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.152,
+          "height": 1.152,
+          "width": 1.152
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|130532500|77267500|8c0fd845-7b35-44a0-8227-da01de0ff98f|fa4422b1-1b86-4c20-991f-0e43ed643734",
+        "hole_clearance|130962500|77087500|8c0fd845-7b35-44a0-8227-da01de0ff98f|e28bc9e8-2daa-4e7d-9eb8-3ffd2a0a1d08",
+        "npth_inside_courtyard|120000000|78000000|35edfd35-67f6-43a8-8032-f5f51eef8604|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "npth_inside_courtyard|120262500|78037500|35edfd35-67f6-43a8-8032-f5f51eef8604|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "npth_inside_courtyard|124137500|81647500|851cba36-142a-4d08-bbbb-b266ece1cc63|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "npth_inside_courtyard|124137500|87427500|84a95112-fc95-407a-ba6f-64ff0bd159ac|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "npth_inside_courtyard|130262500|77837500|8c0fd845-7b35-44a0-8227-da01de0ff98f|a6b7e965-5a9a-4228-9a5a-507a0e3c5491",
+        "npth_inside_courtyard|130262500|88237500|51f265eb-87c8-4799-87c6-e1e6f0a36891|b34538a4-5dc9-4991-97be-5fc1a95e93c4",
+        "npth_inside_courtyard|178262500|86037500|140602e6-c95a-4484-a53b-27e29b7b1b17|5ed3c728-fc2b-4f6d-b524-aa69b57a09e4",
+        "pth_inside_courtyard|120487500|80217500|860bbe81-e524-40ec-801e-e982297323c3|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "pth_inside_courtyard|120487500|88857500|43343f6e-ebc5-4a2a-964b-2af551a2c9ab|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "pth_inside_courtyard|122462500|90087500|8d1bb0eb-7c10-453e-9b46-88681fce4531|6581d93e-7e95-453f-a9c3-c78f4debb2ab",
+        "pth_inside_courtyard|124667500|80217500|31abf004-e540-473a-b825-fd3f0c4b4d9d|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "pth_inside_courtyard|124667500|88857500|5b03ac05-9695-4948-b96f-e73e10ce06d4|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "pth_inside_courtyard|131362500|76687500|e28bc9e8-2daa-4e7d-9eb8-3ffd2a0a1d08|6961fe75-7672-4180-9fa4-d7240ee1829f",
+        "pth_inside_courtyard|131362500|80387500|dd99b900-9788-4377-81fc-bd106cbe9cdd|6961fe75-7672-4180-9fa4-d7240ee1829f"
+      ],
       "meta": {
         "version": 2
       },
@@ -107,13 +124,13 @@
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.16,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -376,7 +393,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6.0
       },
@@ -400,7 +417,7 @@
         "pcb_color": "rgb(0, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6.0
       },
@@ -425,7 +442,7 @@
         "pcb_color": "rgb(255, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
-        "via_diameter": 0.4,
+        "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6.0
       }
